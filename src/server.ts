@@ -1,5 +1,5 @@
 //Importando libs
-import express from 'express';
+import express,{Request,Response} from 'express';
 import dotenv from 'dotenv';
 import mustache from 'mustache-express';
 import routs from './routs/index'
@@ -18,7 +18,7 @@ SERVER.engine("mustache", mustache());
 SERVER.use(express.static(path.join(__dirname,"../public")));
 //Rotas
 SERVER.use(routs);
-SERVER.use((req,res)=>{
-    res.send("Rota não encontrada");
+SERVER.use((req:Request,res:Response)=>{
+   res.render("page/404page")
 })
 SERVER.listen(4000)

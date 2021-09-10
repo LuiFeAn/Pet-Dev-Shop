@@ -6,9 +6,9 @@ import * as searchController from '../controllers/searchController'
 const ROUTER = Router();
 //Criando rotas
 ROUTER.get("/",pageController.home);
-ROUTER.get("dogs",pageController.dogs);
-ROUTER.get("cats",pageController.cats);
-ROUTER.get("fishes",pageController.fishes);
-ROUTER.get("search",searchController.search);
+ROUTER.get("/dogs",pageController.dogs);
+ROUTER.get("/cats",pageController.cats);
+ROUTER.get("/fishes",pageController.fishes);
+ROUTER.get("/search",searchController.search);
 //Exportando Router
 export default ROUTER;
