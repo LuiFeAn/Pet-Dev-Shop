@@ -12,4 +12,4 @@ Projeto feito no módulo de nodeJs - b7web
 
 ## Imagens:
 
-![Screenshot](screenshots/desktop.png)
+![Screenshot](screenshots/desk.png)
