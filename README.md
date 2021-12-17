@@ -9,3 +9,7 @@ Projeto feito no módulo de nodeJs - b7web
 
 #### Para executar o projeto
 `npm run start-dev`
+
+## Imagens:
+
+![Screenshot](screenshots/desktop.png)
